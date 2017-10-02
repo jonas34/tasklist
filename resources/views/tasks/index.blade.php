@@ -10,6 +10,8 @@
 
       <form action="{{ url('task') }}" method="post" class="form-horizontal">
         <div class="form-group">
+          <h1 style="text-align:center;font-family:verdana;">Tasklist</h1>
+          <hr>
           <label for="name" class="col-sm-3 control-label">Task</label>
           <div class="col-sm-6">
             <input type="text" name="name" id="name" class="form-control">
